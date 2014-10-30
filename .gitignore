@@ -2,3 +2,5 @@ vendor/
 composer.lock
 token.txt
 .idea
+
+web/credentials.php

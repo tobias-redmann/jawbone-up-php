@@ -1,6 +1,9 @@
 <?php
 
-require($_SERVER['DOCUMENT_ROOT'].'/credentials.php');
+define('UP_CLIENT_ID',      '');
+define('UP_CLIENT_SECRET',  '');
+
+
 require($_SERVER['DOCUMENT_ROOT'].'/../vendor/autoload.php');
 require($_SERVER['DOCUMENT_ROOT'].'/../src/up.php');
 
